@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.8s ease-in-out;
+}
+
+
+.weather-container {
+  background: #fff;
+  padding: 25px;
+  width: 300px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.search-box {
+  margin: 15px 0;
+}
+
+.search-box input {
+  width: 70%;
+  padding: 8px;
+}
+
+.search-box button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.weather-info img {
+  width: 80px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+.sunny {
+  background: linear-gradient(to right, #fceabb, #f8b500);
+  background-image: url("sunny.jpg");
+  background-size: 1650px;
+}
+
+.cloudy {
+  background: linear-gradient(to right, #d7d2cc, #304352);
+  background-image: url("cloudy.jpg");
+  background-size: 1650px;
+}
+
+.rainy {
+  background: linear-gradient(to right, #4b79a1, #283e51);
+  background-image: url("rainy.jpg");
+  background-size: 1650px;
+}
+
+.snowy {
+  background: linear-gradient(to right, #e6dada, #274046);
+  background-image: url("snow.jpg");
+  background-size: 1650px;
+}
+
+.misty {
+  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+  background-image: url("misty.jpg");
+  background-size: 1650px;
+
+}
+
+.thunder {
+  background: linear-gradient(to right, #141e30, #243b55);
+  background-image: url("thunder.jpg");
+  background-size: 1650px;
+}
+.overcast{
+    background-image: url("overcast.jpg") ;
+}
