@@ -5,7 +5,7 @@ A responsive and user-friendly weather application that provides real-time weath
 ---
 
 ## 🚀 Live Demo
-👉 https://chaitanyajatwork-sys.github.io/weather-app/
+👉 https://chaitanyajatwork-sys.github.io/Weather-App/
 
 ---
 
